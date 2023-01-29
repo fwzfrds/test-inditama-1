@@ -1,0 +1,38 @@
+.testimonialCard {
+    padding: 30px;
+    border: 1px solid #E7EAEC;
+    border-radius: 10px;
+    height: 323px;
+    width: 400px;
+}
+
+.userAndStars {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.user img {
+    width: 60px !important;
+}
+
+.user h5 {
+    margin-top: 15px;
+    font-weight: 600;
+    color: #133240;
+    font-size: 20px;
+}
+
+.stars {
+    display: flex;
+}
+
+.comment p {
+    margin: 0;
+    color: #807D7D;
+    font-size: 16px;
+    width: 330px !important;
+    height: 140px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

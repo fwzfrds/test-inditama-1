@@ -1,0 +1,50 @@
+.section8 {
+    margin-top: 6rem;
+    position: relative;
+}
+
+.bgRed {
+    width: 100%;
+    height: 500px;
+    background: url('/public/assets/img/bg-red.png');
+    position: absolute;
+    bottom: 0;
+}
+
+.content {
+    display: flex;
+    /* align-items: center; */
+}
+
+.contentLeft {
+    z-index: 1;
+    width: 50%;
+    align-self: center;
+    margin-left: 7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 8rem;
+}
+
+.contentLeft h3 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 40px;
+    width: 380px;
+}
+
+.contentLeft p {
+    font-size: 16px;
+    color: #fff;
+}
+
+.download {
+    display: flex;
+    gap: 20px;
+}
+
+.contentRight {
+    z-index: 1;
+    width: 50%;
+}

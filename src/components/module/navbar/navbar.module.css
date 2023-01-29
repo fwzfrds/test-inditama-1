@@ -1,0 +1,17 @@
+.navs-container {
+    display: flex;
+    width: 100%;
+    font-weight: 500;
+}
+
+.navs {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}

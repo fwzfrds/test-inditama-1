@@ -1,0 +1,36 @@
+.advantages {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    padding: 50px 30px;
+    border-radius: 10px;
+    border: 1px solid #E7EAEC;
+}
+
+.logoContainer {
+    padding: 27px;
+    background: #D8191E1A;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.card h5 {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+}
+
+.card p {
+    font-size: 18px;
+    margin: 0px;
+    width: 270px;
+    color: #807D7D;
+}
